@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(pexels-joão-jesus-925743.jpg); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixed background */
+  color: #333; /* Dark text color */
+  margin: 0;
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000; /* IIIT Delhi Blue */
+    border-radius: 4px;
+    background-color: #ecf0f1; /* Light gray background for dropdown */
+    color: #333; /* Dark text color for dropdown */
+    font-size: 1em;
+}
+
+#schedule {
+    margin-top: 20px;
+}
+
+footer {
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000000; /* IIIT Delhi Blue */
+}
+
+.error-message {
+    color: #e74c3c; /* Red color for error messages */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Toggle Music Button */
+button {
+    padding: 10px;
+    background-color: #000000; /* IIIT Delhi Blue */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button color change */
+}
+
+button:hover {
+    background-color: #000000; /* Darker blue on hover */
+}
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-bottom: 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Set maximum width and height for the images */
+.icon {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+    border-radius: 50%; /* Make the icons circular */
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition for the box shadow */
+}
+
+/* Add box shadow and hover effect */
+.icon:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow on hover */
+}
