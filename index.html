@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Class Schedule</title>
+  </head>
+  <body>
+    <div id="popup-container" class="popup-container">
+        <div class="popup-content">
+            <h2>Disclaimer</h2>
+            <p>If you encounter any discrepancies or inaccuracies in the schedule information, you are solely responsible for verifying the details through official college TimeTable. This website and its developers are not responsible for any consequences arising from the use of the provided schedule information,While we make every effort to ensure accuracy, unforeseen circumstances such as faculty availability, room changes, or other administrative adjustments may result in schedule modificationn
+            </p>
+            <button onclick="closePopup()">I Agree</button>
+        </div>
+    </div>
+      <div class="container">
+          <h1>II SEMESTER SCHEDULE </h1>
+          <label for="section">Section:</label>
+          <select id="section" onchange="showSchedule()">
+              <option value="Select">Select the section</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+          </select>
+
+          <label for="elective">Elective:</label>
+          <select id="elective" onchange="showSchedule()">
+              <option value="Select">Select the Elective</option>
+              <option value="ISA">ISA</option>
+              <option value="MB">MB</option>
+              <option value="CTRSS">CTRSS</option>
+          </select>
+          <label for="day">Day:</label>
+          <select id="day" onchange="showSchedule()">
+            <option value="Select">Select The Day</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+
+          </select>
+
+          <div id="schedule"></div>
+      </div>
+      <footer>
+          <p>&copy; Made by Keshav Chaudhary 😎</p>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/keshav-c-a61b78287/" target="_blank"><img src="download.png" alt="LinkedIn" width="20" height="20"></a>
+              <a href="https://github.com/Keshav-Chaudhary" target="_blank"><img src="download (1).png" alt="GitHub" width="20" height="20"></a>
+          </div>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+  </html>
