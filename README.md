@@ -14,7 +14,7 @@ Express Yourself: Share feedback with emojis and show love by hitting the "heart
 No more confusion with class schedules! ClassMate Scheduler empowers IIITD students to effortlessly manage their academic timetable, providing essential information at their fingertips.
 
 🚀 How Can IIITD Students Experience It?
-Visit https://classmate-scheduler.skeshav15april.repl.co/ to explore ClassMate Scheduler and revolutionize your IIITD schedule management!
+Visit https://keshav-chaudhary.github.io/ to explore ClassMate Scheduler and revolutionize your IIITD schedule management!
 
 🤝 Connect With Me:
 IIITD students, your feedback is invaluable! Connect with me for any questions or suggestions. Let's make academic scheduling at IIITD an enjoyable experience! 📚✨
